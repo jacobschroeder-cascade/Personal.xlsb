@@ -1,4 +1,4 @@
-Attribute VB_Name = "CascadeShareCleanup"
+Attribute VB_Name = "PERSONAL_ShareCleanup"
 Option Explicit
 
 ' ============================================================
