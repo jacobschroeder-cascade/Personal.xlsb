@@ -32,11 +32,22 @@ Private Const FLAG_COLOR_B As Long = 204   ' pale amber
 ' It is populated from an external manifest (see Python tooling).
 Private Function CustomFunctionNames() As Variant
     ' --- BEGIN GENERATED LIST ---
-    CustomFunctionNames = Array( _
-        "CascadeKWH", _
-        "CascadeDegreeDays", _
-        "CascadeBaseload", _
-        "CascadeNormalize" _
+    CustomFunctionNames = Array(  _
+        "acfm_to_scfm", "acfm1_to_acfm2", "AirDensity", "AirLeak", "BilinInterp", _
+        "BinMaker", "CalculateCoefficients", "Compressor_kWPerTon", _
+        "CompressorCondenser_KWperTon", "CompressorIncrementalEfficiency", _
+        "Condenser_kWperTon", "CondenserIncrementalEfficiency", _
+        "CoolingTowerCapacityFactor", "DB_DP2WB", "DB_RH2DP", "DB_RH2H", _
+        "DB_RH2WB", "DB_WB2H", "DB_WB2RH", "Defrost_false_load_MS", _
+        "Defrost_false_load_SS", "Door_Infiltration", "EvaporatorFan_kWperTon", _
+        "EvaporatorIncrementalEfficiency", "Fifteenterm", "FindAnomaly", _
+        "Inflow_Infiltration", "inHg_to_psia", "kW", "LinInterp", _
+        "MotorEfficiency", "NH3_p2hf", "NH3_p2hg", "NH3_p2sf", "NH3_p2sg", _
+        "NH3_p2t", "NH3_p2vf", "NH3_p2vg", "NH3_t2p", "Nineterm", "Patm", _
+        "Polynomial", "PowerFactor", "Pressure_to_Temp", "Saturation_Pressure", _
+        "scfm_to_acfm", "Slide_to_Capacity", "SmallScroll_kWperTon", _
+        "SystemIncrementalEfficiency", "Temp_to_Pressure", "Time_interval", _
+        "TwentyFiveTerm", "VFDEfficiency", "Vi" _
     )
     ' --- END GENERATED LIST ---
 End Function
